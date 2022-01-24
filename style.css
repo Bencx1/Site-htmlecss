@@ -1,0 +1,177 @@
+.container{
+	font-size: 100%;
+	font-family: monospace;
+	margin-left: 10%;
+	color: black;
+	padding-left: 10px;
+}
+.item{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	margin: 1% 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 4px solid #000000;
+	border-radius: 10px;
+	background-color: darkorange;
+}
+.top{
+	margin-top: 15%;
+}
+.img-fluid{
+	width: 100%;
+	height: 20px;
+}
+.video {
+	width: 560px;
+	margin: 2em auto;
+}
+
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+}
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: center;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #c78d198e;
+	text-align: center;
+}
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.caixa{
+	align-self: center;
+}
+.checkbox {
+	margin: 20px 0;
+}
+.copyright {
+	color: #000000;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+.flag{
+	background-color: darkorange;
+	color: black;
+	box-sizing: border-box;
+	border: 4px solid black ;
+	text-align: center;
+	display: inline-block;
+	width: 10%;
+	margin: 1% 1.5%;
+	padding: 30px 20px;
+	border-radius: 10px;
+}
+.produto-preco {
+	text-align: left;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.produto{
+	box-sizing: border-box;
+	border: 4px solid #000000;
+	border-radius: 10px;
+}
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+.slider li:nth-child(4) label {
+    left: 100px;
+}
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+.tabela1{
+	background-color: white;
+	text-align: center;
+	margin: auto;
+}
+.mapa {
+	padding: 3em 0;
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
